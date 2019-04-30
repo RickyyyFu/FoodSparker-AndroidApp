@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menubackground"
+    tools:context="edu.neu.csye6200.activity.MenuActivity">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/onionadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:clickable="true"
+        android:src="@drawable/addbtn"
+        app:backgroundTint="@android:color/background_light"
+        app:fabCustomSize="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/onionquant"
+        app:layout_constraintTop_toBottomOf="@+id/burgeradd" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/onionminus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:src="@drawable/minusbtn"
+        app:backgroundTint="@android:color/background_light"
+        app:fabCustomSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/burgerminus" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/burgeradd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:clickable="true"
+        android:src="@drawable/addbtn"
+        app:backgroundTint="@android:color/background_light"
+        app:fabCustomSize="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/burgerquant"
+        app:layout_constraintTop_toBottomOf="@+id/ffadd" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/burgerminus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:src="@drawable/minusbtn"
+        app:backgroundTint="@android:color/background_light"
+        app:fabCustomSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ffminus" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ffadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:clickable="true"
+        android:src="@drawable/addbtn"
+        app:backgroundTint="@android:color/background_light"
+        app:fabCustomSize="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/ffquant"
+        app:layout_constraintTop_toBottomOf="@+id/chickenadd" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ffminus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:src="@drawable/minusbtn"
+        app:backgroundTint="@android:color/background_light"
+        app:fabCustomSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chickenminus" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/chickenadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:clickable="true"
+        android:src="@drawable/addbtn"
+        app:backgroundTint="@android:color/background_light"
+        app:fabCustomSize="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/chickenquant"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/chickenminus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:clickable="true"
+        android:src="@drawable/minusbtn"
+        app:backgroundTint="@android:color/background_light"
+        app:fabCustomSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/chickenquant"
+        android:layout_width="45dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="177dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toStartOf="@+id/chickenminus"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ffquant"
+        android:layout_width="45dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toStartOf="@+id/ffminus"
+        app:layout_constraintTop_toBottomOf="@+id/chickenquant" />
+
+    <TextView
+        android:id="@+id/burgerquant"
+        android:layout_width="46dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toStartOf="@+id/burgerminus"
+        app:layout_constraintTop_toBottomOf="@+id/ffquant" />
+
+    <TextView
+        android:id="@+id/onionquant"
+        android:layout_width="44dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="TextView"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toStartOf="@+id/onionminus"
+        app:layout_constraintTop_toBottomOf="@+id/burgerquant" />
+
+    <ImageButton
+        android:id="@+id/submitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="135dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginBottom="75dp"
+        android:src="@drawable/submitbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

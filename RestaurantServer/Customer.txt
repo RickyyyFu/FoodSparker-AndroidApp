@@ -1,0 +1,6 @@
+Ricky Fu,123456,Northeastern University,100861,1
+
+1,1
+2,2
+q,q
+Hi,123

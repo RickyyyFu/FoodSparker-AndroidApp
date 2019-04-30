@@ -1,0 +1,4 @@
+Burger,3.5,6201
+Chickens,4.0,6201
+French Fries,1.5,6201
+Onion Rings,2.0,6201
